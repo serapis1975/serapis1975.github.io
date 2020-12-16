@@ -1,0 +1,263 @@
+
+/* 1-------секция(1) promo ------------------------------------ */
+
+* {
+   box-sizing: content-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-family: 'Roboto', sans-serif;
+}
+
+.container {
+   position: relative;
+   width: 1140px;
+   margin: 0 auto;
+}
+
+.promo {               /*первый блок*/
+   height: 700px;
+   background: url('../img/b_g_1.jpg') center center/cover no-repeat ;
+   padding: 39px 0 62px 0;
+}
+
+.logo .logo_img {      /*логотип*/
+   display: block;
+   margin: 0 auto;
+}
+
+.logo .logo_text {      /*текст под логотипом*/
+   color: #ffffff;
+   font-family: 'Roboto'; 
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 24px;
+   text-transform: uppercase;
+   text-align: center;
+   margin-top: 14px;
+}
+
+h1 { margin-top: 53px; }
+
+.title {                   /*Создать свой сайт на WordPress*/
+   color: #f9bf3b;
+   font-family: 'Roboto';
+   font-size: 41px;
+   font-weight: 900;
+   line-height: 24px;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+h2.title {                /*Куда сложнее сделать это правильно!*/
+   font-family: 'Roboto';
+   font-weight: 900;
+   margin-top: 30px;
+   }    
+
+.simple .title_big {             /*это просто!*/
+   color: #ffffff;
+   font-family: 'Roboto';
+   font-size: 80px;
+   font-weight: 900;
+   text-transform: uppercase;
+   text-align: center;
+   margin-top: 21px; 
+}
+
+.promo .promo_text {         /*Ежедневно в России.....интенсиве!*/
+   padding: 0 13px;
+   margin-top: 23px;
+   color: #ffffff;
+   font-family: 'Roboto';
+   font-size: 21px;
+   font-weight: 300;
+   line-height: 28px;
+   text-align: center;
+}
+
+.promo .promo_text span{      /*БЕСПЛАТНОМ*/
+   font-weight: 'Roboto';
+   color: #f9bf3b;
+   font-weight: 700;
+}
+
+.promo .promo_btn {           /*кнопка*/
+   display: block;
+   margin: 73px auto;
+   width: 313px;
+   height: 72px;
+   /* margin: 36.5px 60.5px;
+   padding: 14px 15px 14.5px 14.5px; */
+   box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+   border: 4px solid  rgba(0, 0, 0, 0.23);
+   background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+   
+   color: #ffffff;        /*Записаться на интенсив!*/
+   font-family: 'Roboto';
+   font-size: 21px;
+   font-weight: 100;
+   line-height: 24px;
+   text-transform: uppercase;
+   cursor: pointer;
+   outline: none;
+}
+
+.more { margin-top: 73px }
+
+.more .more_text {          /*узнать больше об интенсиве*/
+   color: #ffffff;
+   font-family: 'Roboto';
+   font-size: 15px;
+   font-weight: 400;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.more .more_img {           /*стрелка вниз*/
+   display: block;
+   margin: 0 auto;
+   margin-top: 13px;
+}
+
+/* 2-------секция(2) waiting ------------------------------------ */
+
+.waiting {
+  min-height: 500px;
+  background-color: #efefef;
+  padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header, .finish .finish_header {      /*Что вас ждет в нашем интенсиве?*/
+   color: #252525;
+   font-family: 'Roboto';
+   font-size: 30px;
+   font-weight: 400;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.finish .finish_header{
+   color: #ffffff;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {    /*линия*/
+   width: 217px;
+   height: 4px;
+   margin-top: 18px;
+   background-color: #f9bf3b;
+   margin: 0 auto;
+   margin-top: 18px;
+}
+
+.waiting .waiting_subyeader {    /*2 бесплатных полноценных обучающих вебинара, где:*/
+   margin-top: 17px;
+   font-family: 'Roboto';
+   font-size: 23px;
+   font-weight: 400;
+   text-align: center;
+   color: #4a4a4a;
+}
+
+.waiting .waiting_wrapper {    /*ширина для всех 3-х блоков*/
+   display: flex;
+   justify-content: space-between;
+   margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {    /* выстр-ие блоков в одну линию */                   
+   width: 342px;                             
+   text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+   width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {     /* текст в блоках */
+   color: #4a4a4a;
+   font-family: 'Roboto';
+   font-size: 15px;
+   font-weight: 300;
+   line-height: 21px;
+   margin-top: 33px;
+}
+
+/* 3-------секция(3) optimization ------------------------------------ */
+
+.optimization {
+   min-height: 350px;
+   padding: 102px 0 107px 0;
+
+}
+
+.optimization .optimization_header {   /*Что такое оптимизация и зачем она нужна?*/
+   margin-left: 391px;
+   font-family: 'Roboto';
+   font-size: 29px;
+   font-weight: 400;
+   color: #299cbd;
+}
+
+.optimization .optimization_text {     /*текст*/
+   margin-top: 25px;
+   margin-left: 391px;
+   font-family: 'Roboto';
+   font-size: 17px;
+   font-weight: 300;
+   line-height: 27px;
+   color: #4a4a4a;
+}
+
+.optimization .optimization_text span {   /*выделенный текст*/
+   font-weight: 700;
+}
+
+.optimization .optimization_img {       /*позиционирование картинка-дувушка*/
+   position: absolute;
+   top: -48px;
+   left: -240px;
+   z-index: -1;
+}
+
+/* 4-------секция(4) finish ------------------------------------ */
+
+.finish {
+   min-height: 112px;
+   padding: 86px 0 79px 0;
+   background: url('../img/b_g_2.jpg') center center/cover no-repeat ;
+}
+
+.finish .finish_wrapper {
+   margin-top: 41px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+   width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   width: 115px;
+   height: 115px;
+   background-color: #b4e2ff;
+   border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+   margin-top: 25px;
+   text-align: center;
+   font-family: 'Roboto';
+   font-size: 17px;
+   font-weight: 300;
+   line-height: 20px;
+   text-align: center;
+   color: #efefef;
+}
